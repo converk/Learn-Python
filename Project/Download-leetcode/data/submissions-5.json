@@ -1,0 +1,225 @@
+{
+    "submissions_dump": [{
+            "id": 4204253,
+            "lang": "python3",
+            "time": "6 月，1 周",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/4204253/",
+            "is_pending": "Not Pending",
+            "title": "两数之和",
+            "timestamp": 1531644488
+        },
+        {
+            "id": 3692528,
+            "lang": "python3",
+            "time": "6 月，3 周",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/3692528/",
+            "is_pending": "Not Pending",
+            "title": "两数之和",
+            "timestamp": 1530580472
+        },
+        {
+            "id": 1716469,
+            "lang": "python3",
+            "time": "8 月，4 周",
+            "status_display": "Accepted",
+            "runtime": "60 ms",
+            "url": "/submissions/detail/1716469/",
+            "is_pending": "Not Pending",
+            "title": "移动零",
+            "timestamp": 1524733331
+        },
+        {
+            "id": 1715218,
+            "lang": "python3",
+            "time": "8 月，4 周",
+            "status_display": "Accepted",
+            "runtime": "280 ms",
+            "url": "/submissions/detail/1715218/",
+            "is_pending": "Not Pending",
+            "title": "移动零",
+            "timestamp": 1524732122
+        },
+        {
+            "id": 1713428,
+            "lang": "python3",
+            "time": "8 月，4 周",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1713428/",
+            "is_pending": "Not Pending",
+            "title": "移动零",
+            "timestamp": 1524729960
+        },
+        {
+            "id": 1692372,
+            "lang": "python3",
+            "time": "8 月，4 周",
+            "status_display": "Accepted",
+            "runtime": "108 ms",
+            "url": "/submissions/detail/1692372/",
+            "is_pending": "Not Pending",
+            "title": "两个数组的交集 II",
+            "timestamp": 1524662880
+        },
+        {
+            "id": 1692284,
+            "lang": "python3",
+            "time": "8 月，4 周",
+            "status_display": "Accepted",
+            "runtime": "92 ms",
+            "url": "/submissions/detail/1692284/",
+            "is_pending": "Not Pending",
+            "title": "两个数组的交集 II",
+            "timestamp": 1524662760
+        },
+        {
+            "id": 1691998,
+            "lang": "python3",
+            "time": "8 月，4 周",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1691998/",
+            "is_pending": "Not Pending",
+            "title": "两个数组的交集 II",
+            "timestamp": 1524662338
+        },
+        {
+            "id": 1691319,
+            "lang": "python3",
+            "time": "8 月，4 周",
+            "status_display": "Accepted",
+            "runtime": "64 ms",
+            "url": "/submissions/detail/1691319/",
+            "is_pending": "Not Pending",
+            "title": "只出现一次的数字",
+            "timestamp": 1524661446
+        },
+        {
+            "id": 1688850,
+            "lang": "python3",
+            "time": "8 月，4 周",
+            "status_display": "Time Limit Exceeded",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1688850/",
+            "is_pending": "Not Pending",
+            "title": "只出现一次的数字",
+            "timestamp": 1524658353
+        },
+        {
+            "id": 1688673,
+            "lang": "python3",
+            "time": "8 月，4 周",
+            "status_display": "Accepted",
+            "runtime": "64 ms",
+            "url": "/submissions/detail/1688673/",
+            "is_pending": "Not Pending",
+            "title": "存在重复元素",
+            "timestamp": 1524658118
+        },
+        {
+            "id": 1688305,
+            "lang": "python3",
+            "time": "8 月，4 周",
+            "status_display": "Time Limit Exceeded",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1688305/",
+            "is_pending": "Not Pending",
+            "title": "存在重复元素",
+            "timestamp": 1524657658
+        },
+        {
+            "id": 1685322,
+            "lang": "python3",
+            "time": "8 月，4 周",
+            "status_display": "Accepted",
+            "runtime": "108 ms",
+            "url": "/submissions/detail/1685322/",
+            "is_pending": "Not Pending",
+            "title": "旋转数组",
+            "timestamp": 1524650888
+        },
+        {
+            "id": 1685046,
+            "lang": "python3",
+            "time": "8 月，4 周",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1685046/",
+            "is_pending": "Not Pending",
+            "title": "旋转数组",
+            "timestamp": 1524650489
+        },
+        {
+            "id": 1684979,
+            "lang": "python3",
+            "time": "8 月，4 周",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1684979/",
+            "is_pending": "Not Pending",
+            "title": "旋转数组",
+            "timestamp": 1524650406
+        },
+        {
+            "id": 1667122,
+            "lang": "python",
+            "time": "9 月",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1667122/",
+            "is_pending": "Not Pending",
+            "title": "旋转数组",
+            "timestamp": 1524619242
+        },
+        {
+            "id": 1627922,
+            "lang": "python3",
+            "time": "9 月",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1627922/",
+            "is_pending": "Not Pending",
+            "title": "旋转数组",
+            "timestamp": 1524494992
+        },
+        {
+            "id": 1575288,
+            "lang": "python3",
+            "time": "9 月",
+            "status_display": "Accepted",
+            "runtime": "60 ms",
+            "url": "/submissions/detail/1575288/",
+            "is_pending": "Not Pending",
+            "title": "买卖股票的最佳时机 II",
+            "timestamp": 1524389162
+        },
+        {
+            "id": 1268934,
+            "lang": "python3",
+            "time": "9 月，1 周",
+            "status_display": "Accepted",
+            "runtime": "56 ms",
+            "url": "/submissions/detail/1268934/",
+            "is_pending": "Not Pending",
+            "title": "爬楼梯",
+            "timestamp": 1523629397
+        },
+        {
+            "id": 1263532,
+            "lang": "python3",
+            "time": "9 月，1 周",
+            "status_display": "Time Limit Exceeded",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1263532/",
+            "is_pending": "Not Pending",
+            "title": "爬楼梯",
+            "timestamp": 1523620712
+        }
+    ],
+    "has_next": true,
+    "last_key": "6sqqt37"
+}

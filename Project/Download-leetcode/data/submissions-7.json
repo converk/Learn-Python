@@ -1,0 +1,115 @@
+{
+    "submissions_dump": [{
+            "id": 969277,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/969277/",
+            "is_pending": "Not Pending",
+            "title": "最长公共前缀",
+            "timestamp": 1523067958
+        },
+        {
+            "id": 955780,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "200 ms",
+            "url": "/submissions/detail/955780/",
+            "is_pending": "Not Pending",
+            "title": "罗马数字转整数",
+            "timestamp": 1523019051
+        },
+        {
+            "id": 955600,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/955600/",
+            "is_pending": "Not Pending",
+            "title": "罗马数字转整数",
+            "timestamp": 1523018802
+        },
+        {
+            "id": 955181,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/955181/",
+            "is_pending": "Not Pending",
+            "title": "罗马数字转整数",
+            "timestamp": 1523018195
+        },
+        {
+            "id": 954873,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "380 ms",
+            "url": "/submissions/detail/954873/",
+            "is_pending": "Not Pending",
+            "title": "回文数",
+            "timestamp": 1523017723
+        },
+        {
+            "id": 954356,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "72 ms",
+            "url": "/submissions/detail/954356/",
+            "is_pending": "Not Pending",
+            "title": "整数反转",
+            "timestamp": 1523016985
+        },
+        {
+            "id": 953961,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/953961/",
+            "is_pending": "Not Pending",
+            "title": "整数反转",
+            "timestamp": 1523016328
+        },
+        {
+            "id": 933519,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "84 ms",
+            "url": "/submissions/detail/933519/",
+            "is_pending": "Not Pending",
+            "title": "删除排序数组中的重复项",
+            "timestamp": 1522981779
+        },
+        {
+            "id": 922858,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "1392 ms",
+            "url": "/submissions/detail/922858/",
+            "is_pending": "Not Pending",
+            "title": "两数之和",
+            "timestamp": 1522932358
+        },
+        {
+            "id": 847132,
+            "lang": "python3",
+            "time": "9 月，3 周",
+            "status_display": "Time Limit Exceeded",
+            "runtime": "N/A",
+            "url": "/submissions/detail/847132/",
+            "is_pending": "Not Pending",
+            "title": "两数之和",
+            "timestamp": 1522767744
+        }
+    ],
+    "has_next": false,
+    "last_key": "73la40s"
+}

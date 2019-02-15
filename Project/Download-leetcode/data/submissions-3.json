@@ -1,0 +1,225 @@
+{
+    "submissions_dump": [{
+            "id": 10102146,
+            "lang": "c",
+            "time": "1 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "8 ms",
+            "url": "/submissions/detail/10102146/",
+            "is_pending": "Not Pending",
+            "title": "移除链表元素",
+            "timestamp": 1543931169
+        },
+        {
+            "id": 10102079,
+            "lang": "c",
+            "time": "1 月，2 周",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10102079/",
+            "is_pending": "Not Pending",
+            "title": "移除链表元素",
+            "timestamp": 1543931085
+        },
+        {
+            "id": 10101510,
+            "lang": "c",
+            "time": "1 月，2 周",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10101510/",
+            "is_pending": "Not Pending",
+            "title": "移除链表元素",
+            "timestamp": 1543930472
+        },
+        {
+            "id": 10100361,
+            "lang": "c",
+            "time": "1 月，2 周",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10100361/",
+            "is_pending": "Not Pending",
+            "title": "相交链表",
+            "timestamp": 1543929048
+        },
+        {
+            "id": 10100284,
+            "lang": "c",
+            "time": "1 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "48 ms",
+            "url": "/submissions/detail/10100284/",
+            "is_pending": "Not Pending",
+            "title": "相交链表",
+            "timestamp": 1543928955
+        },
+        {
+            "id": 10041376,
+            "lang": "c",
+            "time": "1 月，2 周",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10041376/",
+            "is_pending": "Not Pending",
+            "title": "相交链表",
+            "timestamp": 1543824505
+        },
+        {
+            "id": 10041356,
+            "lang": "c",
+            "time": "1 月，2 周",
+            "status_display": "Compile Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10041356/",
+            "is_pending": "Not Pending",
+            "title": "相交链表",
+            "timestamp": 1543824485
+        },
+        {
+            "id": 10040889,
+            "lang": "c",
+            "time": "1 月，2 周",
+            "status_display": "Compile Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10040889/",
+            "is_pending": "Not Pending",
+            "title": "相交链表",
+            "timestamp": 1543823952
+        },
+        {
+            "id": 9500090,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Accepted",
+            "runtime": "0 ms",
+            "url": "/submissions/detail/9500090/",
+            "is_pending": "Not Pending",
+            "title": "链表的中间结点",
+            "timestamp": 1542530568
+        },
+        {
+            "id": 9499901,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/9499901/",
+            "is_pending": "Not Pending",
+            "title": "反转链表",
+            "timestamp": 1542530246
+        },
+        {
+            "id": 9498035,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/9498035/",
+            "is_pending": "Not Pending",
+            "title": "环形链表",
+            "timestamp": 1542527146
+        },
+        {
+            "id": 9498009,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/9498009/",
+            "is_pending": "Not Pending",
+            "title": "环形链表",
+            "timestamp": 1542527112
+        },
+        {
+            "id": 9497991,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/9497991/",
+            "is_pending": "Not Pending",
+            "title": "环形链表",
+            "timestamp": 1542527075
+        },
+        {
+            "id": 9497981,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/9497981/",
+            "is_pending": "Not Pending",
+            "title": "环形链表",
+            "timestamp": 1542527058
+        },
+        {
+            "id": 9497457,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/9497457/",
+            "is_pending": "Not Pending",
+            "title": "环形链表",
+            "timestamp": 1542526621
+        },
+        {
+            "id": 9497348,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/9497348/",
+            "is_pending": "Not Pending",
+            "title": "环形链表",
+            "timestamp": 1542526543
+        },
+        {
+            "id": 9497318,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/9497318/",
+            "is_pending": "Not Pending",
+            "title": "环形链表",
+            "timestamp": 1542526517
+        },
+        {
+            "id": 9496994,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Accepted",
+            "runtime": "28 ms",
+            "url": "/submissions/detail/9496994/",
+            "is_pending": "Not Pending",
+            "title": "环形链表",
+            "timestamp": 1542526253
+        },
+        {
+            "id": 9489351,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Accepted",
+            "runtime": "8 ms",
+            "url": "/submissions/detail/9489351/",
+            "is_pending": "Not Pending",
+            "title": "删除排序链表中的重复元素",
+            "timestamp": 1542510702
+        },
+        {
+            "id": 9489310,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/9489310/",
+            "is_pending": "Not Pending",
+            "title": "删除排序链表中的重复元素",
+            "timestamp": 1542510637
+        }
+    ],
+    "has_next": true,
+    "last_key": "orpf7g5s"
+}

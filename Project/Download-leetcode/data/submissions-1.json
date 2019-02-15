@@ -1,0 +1,225 @@
+{
+    "submissions_dump": [{
+            "id": 11760785,
+            "lang": "c",
+            "time": "2 日，22 小时",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/11760785/",
+            "is_pending": "Not Pending",
+            "title": "比较含退格的字符串",
+            "timestamp": 1547717534
+        },
+        {
+            "id": 11760472,
+            "lang": "c",
+            "time": "2 日，22 小时",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/11760472/",
+            "is_pending": "Not Pending",
+            "title": "比较含退格的字符串",
+            "timestamp": 1547717218
+        },
+        {
+            "id": 11760182,
+            "lang": "c",
+            "time": "2 日，22 小时",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/11760182/",
+            "is_pending": "Not Pending",
+            "title": "比较含退格的字符串",
+            "timestamp": 1547716983
+        },
+        {
+            "id": 11756600,
+            "lang": "c",
+            "time": "2 日，23 小时",
+            "status_display": "Accepted",
+            "runtime": "28 ms",
+            "url": "/submissions/detail/11756600/",
+            "is_pending": "Not Pending",
+            "title": "按奇偶排序数组 II",
+            "timestamp": 1547714017
+        },
+        {
+            "id": 11756093,
+            "lang": "c",
+            "time": "2 日，23 小时",
+            "status_display": "Accepted",
+            "runtime": "56 ms",
+            "url": "/submissions/detail/11756093/",
+            "is_pending": "Not Pending",
+            "title": "按奇偶排序数组 II",
+            "timestamp": 1547713616
+        },
+        {
+            "id": 11750954,
+            "lang": "python3",
+            "time": "3 日",
+            "status_display": "Accepted",
+            "runtime": "624 ms",
+            "url": "/submissions/detail/11750954/",
+            "is_pending": "Not Pending",
+            "title": "最接近原点的 K 个点",
+            "timestamp": 1547709188
+        },
+        {
+            "id": 11748687,
+            "lang": "c",
+            "time": "3 日",
+            "status_display": "Accepted",
+            "runtime": "8 ms",
+            "url": "/submissions/detail/11748687/",
+            "is_pending": "Not Pending",
+            "title": "两个数组的交集",
+            "timestamp": 1547707584
+        },
+        {
+            "id": 11748475,
+            "lang": "c",
+            "time": "3 日，1 小时",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/11748475/",
+            "is_pending": "Not Pending",
+            "title": "两个数组的交集",
+            "timestamp": 1547707344
+        },
+        {
+            "id": 11713702,
+            "lang": "c",
+            "time": "3 日，22 小时",
+            "status_display": "Accepted",
+            "runtime": "0 ms",
+            "url": "/submissions/detail/11713702/",
+            "is_pending": "Not Pending",
+            "title": "合并两个有序数组",
+            "timestamp": 1547630098
+        },
+        {
+            "id": 11713167,
+            "lang": "c",
+            "time": "3 日，22 小时",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/11713167/",
+            "is_pending": "Not Pending",
+            "title": "到最近的人的最大距离",
+            "timestamp": 1547629630
+        },
+        {
+            "id": 11710747,
+            "lang": "c",
+            "time": "3 日，23 小时",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/11710747/",
+            "is_pending": "Not Pending",
+            "title": "到最近的人的最大距离",
+            "timestamp": 1547627624
+        },
+        {
+            "id": 11710656,
+            "lang": "c",
+            "time": "3 日，23 小时",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/11710656/",
+            "is_pending": "Not Pending",
+            "title": "到最近的人的最大距离",
+            "timestamp": 1547627544
+        },
+        {
+            "id": 11596688,
+            "lang": "c",
+            "time": "6 日，18 小时",
+            "status_display": "Accepted",
+            "runtime": "0 ms",
+            "url": "/submissions/detail/11596688/",
+            "is_pending": "Not Pending",
+            "title": "斐波那契数",
+            "timestamp": 1547384857
+        },
+        {
+            "id": 11589104,
+            "lang": "c",
+            "time": "6 日，22 小时",
+            "status_display": "Accepted",
+            "runtime": "8 ms",
+            "url": "/submissions/detail/11589104/",
+            "is_pending": "Not Pending",
+            "title": "旋转链表",
+            "timestamp": 1547371248
+        },
+        {
+            "id": 11588783,
+            "lang": "c",
+            "time": "6 日，22 小时",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/11588783/",
+            "is_pending": "Not Pending",
+            "title": "旋转链表",
+            "timestamp": 1547370761
+        },
+        {
+            "id": 11588456,
+            "lang": "c",
+            "time": "6 日，22 小时",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/11588456/",
+            "is_pending": "Not Pending",
+            "title": "旋转链表",
+            "timestamp": 1547370317
+        },
+        {
+            "id": 11588386,
+            "lang": "c",
+            "time": "6 日，22 小时",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/11588386/",
+            "is_pending": "Not Pending",
+            "title": "旋转链表",
+            "timestamp": 1547370229
+        },
+        {
+            "id": 11588346,
+            "lang": "c",
+            "time": "6 日，22 小时",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/11588346/",
+            "is_pending": "Not Pending",
+            "title": "旋转链表",
+            "timestamp": 1547370176
+        },
+        {
+            "id": 11587522,
+            "lang": "c",
+            "time": "6 日，23 小时",
+            "status_display": "Accepted",
+            "runtime": "16 ms",
+            "url": "/submissions/detail/11587522/",
+            "is_pending": "Not Pending",
+            "title": "按奇偶排序数组",
+            "timestamp": 1547368954
+        },
+        {
+            "id": 11198508,
+            "lang": "c",
+            "time": "2 周，2 日",
+            "status_display": "Accepted",
+            "runtime": "0 ms",
+            "url": "/submissions/detail/11198508/",
+            "is_pending": "Not Pending",
+            "title": "快乐数",
+            "timestamp": 1546527102
+        }
+    ],
+    "has_next": true,
+    "last_key": "r9zl41s6"
+}

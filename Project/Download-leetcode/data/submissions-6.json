@@ -1,0 +1,225 @@
+{
+    "submissions_dump": [{
+            "id": 1263377,
+            "lang": "python3",
+            "time": "9 月，1 周",
+            "status_display": "Accepted",
+            "runtime": "84 ms",
+            "url": "/submissions/detail/1263377/",
+            "is_pending": "Not Pending",
+            "title": "x 的平方根",
+            "timestamp": 1523620509
+        },
+        {
+            "id": 1262209,
+            "lang": "python3",
+            "time": "9 月，1 周",
+            "status_display": "Time Limit Exceeded",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1262209/",
+            "is_pending": "Not Pending",
+            "title": "x 的平方根",
+            "timestamp": 1523618449
+        },
+        {
+            "id": 1229984,
+            "lang": "python3",
+            "time": "9 月，1 周",
+            "status_display": "Accepted",
+            "runtime": "68 ms",
+            "url": "/submissions/detail/1229984/",
+            "is_pending": "Not Pending",
+            "title": "二进制求和",
+            "timestamp": 1523541576
+        },
+        {
+            "id": 1228068,
+            "lang": "python3",
+            "time": "9 月，1 周",
+            "status_display": "Accepted",
+            "runtime": "56 ms",
+            "url": "/submissions/detail/1228068/",
+            "is_pending": "Not Pending",
+            "title": "加一",
+            "timestamp": 1523538983
+        },
+        {
+            "id": 1086525,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "48 ms",
+            "url": "/submissions/detail/1086525/",
+            "is_pending": "Not Pending",
+            "title": "最后一个单词的长度",
+            "timestamp": 1523273843
+        },
+        {
+            "id": 1086281,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "56 ms",
+            "url": "/submissions/detail/1086281/",
+            "is_pending": "Not Pending",
+            "title": "最后一个单词的长度",
+            "timestamp": 1523273466
+        },
+        {
+            "id": 1085919,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1085919/",
+            "is_pending": "Not Pending",
+            "title": "最后一个单词的长度",
+            "timestamp": 1523272950
+        },
+        {
+            "id": 1046731,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "64 ms",
+            "url": "/submissions/detail/1046731/",
+            "is_pending": "Not Pending",
+            "title": "最大子序和",
+            "timestamp": 1523199453
+        },
+        {
+            "id": 1045764,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1045764/",
+            "is_pending": "Not Pending",
+            "title": "最大子序和",
+            "timestamp": 1523198024
+        },
+        {
+            "id": 1045129,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Time Limit Exceeded",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1045129/",
+            "is_pending": "Not Pending",
+            "title": "最大子序和",
+            "timestamp": 1523197144
+        },
+        {
+            "id": 1045124,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Internal Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1045124/",
+            "is_pending": "Not Pending",
+            "title": "最大子序和",
+            "timestamp": 1523197138
+        },
+        {
+            "id": 1045095,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Internal Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/1045095/",
+            "is_pending": "Not Pending",
+            "title": "最大子序和",
+            "timestamp": 1523197089
+        },
+        {
+            "id": 1043154,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "60 ms",
+            "url": "/submissions/detail/1043154/",
+            "is_pending": "Not Pending",
+            "title": "报数",
+            "timestamp": 1523194692
+        },
+        {
+            "id": 1034774,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "52 ms",
+            "url": "/submissions/detail/1034774/",
+            "is_pending": "Not Pending",
+            "title": "搜索插入位置",
+            "timestamp": 1523183836
+        },
+        {
+            "id": 1028435,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "48 ms",
+            "url": "/submissions/detail/1028435/",
+            "is_pending": "Not Pending",
+            "title": "实现strStr()",
+            "timestamp": 1523176209
+        },
+        {
+            "id": 995020,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "52 ms",
+            "url": "/submissions/detail/995020/",
+            "is_pending": "Not Pending",
+            "title": "移除元素",
+            "timestamp": 1523111290
+        },
+        {
+            "id": 994912,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "56 ms",
+            "url": "/submissions/detail/994912/",
+            "is_pending": "Not Pending",
+            "title": "移除元素",
+            "timestamp": 1523111133
+        },
+        {
+            "id": 984195,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "56 ms",
+            "url": "/submissions/detail/984195/",
+            "is_pending": "Not Pending",
+            "title": "有效的括号",
+            "timestamp": 1523094574
+        },
+        {
+            "id": 970252,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Accepted",
+            "runtime": "48 ms",
+            "url": "/submissions/detail/970252/",
+            "is_pending": "Not Pending",
+            "title": "最长公共前缀",
+            "timestamp": 1523069534
+        },
+        {
+            "id": 969871,
+            "lang": "python3",
+            "time": "9 月，2 周",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/969871/",
+            "is_pending": "Not Pending",
+            "title": "最长公共前缀",
+            "timestamp": 1523068994
+        }
+    ],
+    "has_next": true,
+    "last_key": "uxrbxej"
+}

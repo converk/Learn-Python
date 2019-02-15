@@ -1,0 +1,225 @@
+{
+    "submissions_dump": [{
+            "id": 9489193,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/9489193/",
+            "is_pending": "Not Pending",
+            "title": "删除排序链表中的重复元素",
+            "timestamp": 1542510424
+        },
+        {
+            "id": 9483086,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/9483086/",
+            "is_pending": "Not Pending",
+            "title": "删除链表中的节点",
+            "timestamp": 1542465953
+        },
+        {
+            "id": 9482934,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Accepted",
+            "runtime": "52 ms",
+            "url": "/submissions/detail/9482934/",
+            "is_pending": "Not Pending",
+            "title": "删除链表中的节点",
+            "timestamp": 1542465616
+        },
+        {
+            "id": 9482931,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/9482931/",
+            "is_pending": "Not Pending",
+            "title": "删除链表中的节点",
+            "timestamp": 1542465611
+        },
+        {
+            "id": 9482400,
+            "lang": "c",
+            "time": "2 月",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/9482400/",
+            "is_pending": "Not Pending",
+            "title": "合并两个有序链表",
+            "timestamp": 1542464693
+        },
+        {
+            "id": 4424555,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/4424555/",
+            "is_pending": "Not Pending",
+            "title": "字符串转换整数 (atoi)",
+            "timestamp": 1532078387
+        },
+        {
+            "id": 4421325,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Accepted",
+            "runtime": "76 ms",
+            "url": "/submissions/detail/4421325/",
+            "is_pending": "Not Pending",
+            "title": "验证回文串",
+            "timestamp": 1532076062
+        },
+        {
+            "id": 4421022,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Accepted",
+            "runtime": "100 ms",
+            "url": "/submissions/detail/4421022/",
+            "is_pending": "Not Pending",
+            "title": "验证回文串",
+            "timestamp": 1532075742
+        },
+        {
+            "id": 4420918,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Accepted",
+            "runtime": "104 ms",
+            "url": "/submissions/detail/4420918/",
+            "is_pending": "Not Pending",
+            "title": "验证回文串",
+            "timestamp": 1532075641
+        },
+        {
+            "id": 4419729,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Accepted",
+            "runtime": "80 ms",
+            "url": "/submissions/detail/4419729/",
+            "is_pending": "Not Pending",
+            "title": "有效的字母异位词",
+            "timestamp": 1532074438
+        },
+        {
+            "id": 4418538,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/4418538/",
+            "is_pending": "Not Pending",
+            "title": "有效的字母异位词",
+            "timestamp": 1532073202
+        },
+        {
+            "id": 4417401,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/4417401/",
+            "is_pending": "Not Pending",
+            "title": "字符串中的第一个唯一字符",
+            "timestamp": 1532072081
+        },
+        {
+            "id": 4406885,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Accepted",
+            "runtime": "64 ms",
+            "url": "/submissions/detail/4406885/",
+            "is_pending": "Not Pending",
+            "title": "整数反转",
+            "timestamp": 1532055556
+        },
+        {
+            "id": 4406412,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/4406412/",
+            "is_pending": "Not Pending",
+            "title": "整数反转",
+            "timestamp": 1532055006
+        },
+        {
+            "id": 4405805,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Accepted",
+            "runtime": "116 ms",
+            "url": "/submissions/detail/4405805/",
+            "is_pending": "Not Pending",
+            "title": "整数反转",
+            "timestamp": 1532054367
+        },
+        {
+            "id": 4404738,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Accepted",
+            "runtime": "64 ms",
+            "url": "/submissions/detail/4404738/",
+            "is_pending": "Not Pending",
+            "title": "反转字符串",
+            "timestamp": 1532053023
+        },
+        {
+            "id": 4404592,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Accepted",
+            "runtime": "88 ms",
+            "url": "/submissions/detail/4404592/",
+            "is_pending": "Not Pending",
+            "title": "反转字符串",
+            "timestamp": 1532052803
+        },
+        {
+            "id": 4404450,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Accepted",
+            "runtime": "88 ms",
+            "url": "/submissions/detail/4404450/",
+            "is_pending": "Not Pending",
+            "title": "反转字符串",
+            "timestamp": 1532052625
+        },
+        {
+            "id": 4403960,
+            "lang": "python3",
+            "time": "6 月",
+            "status_display": "Accepted",
+            "runtime": "48 ms",
+            "url": "/submissions/detail/4403960/",
+            "is_pending": "Not Pending",
+            "title": "旋转图像",
+            "timestamp": 1532051958
+        },
+        {
+            "id": 4204801,
+            "lang": "python3",
+            "time": "6 月，1 周",
+            "status_display": "Accepted",
+            "runtime": "1420 ms",
+            "url": "/submissions/detail/4204801/",
+            "is_pending": "Not Pending",
+            "title": "两数之和",
+            "timestamp": 1531644992
+        }
+    ],
+    "has_next": true,
+    "last_key": "52i8igg3"
+}

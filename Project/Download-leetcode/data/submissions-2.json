@@ -1,0 +1,225 @@
+{
+    "submissions_dump": [{
+            "id": 10786366,
+            "lang": "c",
+            "time": "3 周，6 日",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10786366/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树结点最小距离",
+            "timestamp": 1545561000
+        },
+        {
+            "id": 10786302,
+            "lang": "c",
+            "time": "3 周，6 日",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10786302/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树结点最小距离",
+            "timestamp": 1545560807
+        },
+        {
+            "id": 10786234,
+            "lang": "c",
+            "time": "3 周，6 日",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10786234/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树结点最小距离",
+            "timestamp": 1545560647
+        },
+        {
+            "id": 10786190,
+            "lang": "c",
+            "time": "3 周，6 日",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10786190/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树结点最小距离",
+            "timestamp": 1545560543
+        },
+        {
+            "id": 10785752,
+            "lang": "c",
+            "time": "3 周，6 日",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10785752/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树结点最小距离",
+            "timestamp": 1545559493
+        },
+        {
+            "id": 10785721,
+            "lang": "c",
+            "time": "3 周，6 日",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10785721/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树结点最小距离",
+            "timestamp": 1545559403
+        },
+        {
+            "id": 10785666,
+            "lang": "c",
+            "time": "3 周，6 日",
+            "status_display": "Runtime Error",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10785666/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树结点最小距离",
+            "timestamp": 1545559253
+        },
+        {
+            "id": 10783498,
+            "lang": "c",
+            "time": "3 周，6 日",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10783498/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树结点最小距离",
+            "timestamp": 1545555666
+        },
+        {
+            "id": 10783257,
+            "lang": "c",
+            "time": "3 周，6 日",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10783257/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树结点最小距离",
+            "timestamp": 1545555317
+        },
+        {
+            "id": 10612798,
+            "lang": "c",
+            "time": "1 月",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/10612798/",
+            "is_pending": "Not Pending",
+            "title": "棒球比赛",
+            "timestamp": 1545141679
+        },
+        {
+            "id": 10612360,
+            "lang": "c",
+            "time": "1 月",
+            "status_display": "Accepted",
+            "runtime": "8 ms",
+            "url": "/submissions/detail/10612360/",
+            "is_pending": "Not Pending",
+            "title": "棒球比赛",
+            "timestamp": 1545141119
+        },
+        {
+            "id": 10611339,
+            "lang": "c",
+            "time": "1 月",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10611339/",
+            "is_pending": "Not Pending",
+            "title": "棒球比赛",
+            "timestamp": 1545139917
+        },
+        {
+            "id": 10608315,
+            "lang": "c",
+            "time": "1 月",
+            "status_display": "Accepted",
+            "runtime": "16 ms",
+            "url": "/submissions/detail/10608315/",
+            "is_pending": "Not Pending",
+            "title": "最小栈",
+            "timestamp": 1545136678
+        },
+        {
+            "id": 10604241,
+            "lang": "c",
+            "time": "1 月",
+            "status_display": "Accepted",
+            "runtime": "8 ms",
+            "url": "/submissions/detail/10604241/",
+            "is_pending": "Not Pending",
+            "title": "平衡二叉树",
+            "timestamp": 1545131506
+        },
+        {
+            "id": 10603880,
+            "lang": "c",
+            "time": "1 月",
+            "status_display": "Accepted",
+            "runtime": "12 ms",
+            "url": "/submissions/detail/10603880/",
+            "is_pending": "Not Pending",
+            "title": "平衡二叉树",
+            "timestamp": 1545130922
+        },
+        {
+            "id": 10603713,
+            "lang": "c",
+            "time": "1 月",
+            "status_display": "Time Limit Exceeded",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10603713/",
+            "is_pending": "Not Pending",
+            "title": "平衡二叉树",
+            "timestamp": 1545130585
+        },
+        {
+            "id": 10603667,
+            "lang": "c",
+            "time": "1 月",
+            "status_display": "Time Limit Exceeded",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10603667/",
+            "is_pending": "Not Pending",
+            "title": "平衡二叉树",
+            "timestamp": 1545130491
+        },
+        {
+            "id": 10603349,
+            "lang": "c",
+            "time": "1 月",
+            "status_display": "Time Limit Exceeded",
+            "runtime": "N/A",
+            "url": "/submissions/detail/10603349/",
+            "is_pending": "Not Pending",
+            "title": "平衡二叉树",
+            "timestamp": 1545129851
+        },
+        {
+            "id": 10306683,
+            "lang": "c",
+            "time": "1 月，1 周",
+            "status_display": "Accepted",
+            "runtime": "12 ms",
+            "url": "/submissions/detail/10306683/",
+            "is_pending": "Not Pending",
+            "title": "回文链表",
+            "timestamp": 1544418413
+        },
+        {
+            "id": 10306526,
+            "lang": "c",
+            "time": "1 月，1 周",
+            "status_display": "Accepted",
+            "runtime": "24 ms",
+            "url": "/submissions/detail/10306526/",
+            "is_pending": "Not Pending",
+            "title": "回文链表",
+            "timestamp": 1544418237
+        }
+    ],
+    "has_next": true,
+    "last_key": "o3any86t"
+}

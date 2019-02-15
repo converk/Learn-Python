@@ -1,0 +1,225 @@
+{
+    "submissions_dump": [{
+            "id": 11839382,
+            "lang": "c",
+            "time": "20 小时，45 分钟",
+            "status_display": "Accepted",
+            "runtime": "0 ms",
+            "url": "/submissions/detail/11839382/",
+            "is_pending": "Not Pending",
+            "title": "二叉树中第二小的节点",
+            "timestamp": 1547895420
+        },
+        {
+            "id": 11839360,
+            "lang": "c",
+            "time": "20 小时，46 分钟",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/11839360/",
+            "is_pending": "Not Pending",
+            "title": "二叉树中第二小的节点",
+            "timestamp": 1547895353
+        },
+        {
+            "id": 11839110,
+            "lang": "c",
+            "time": "20 小时，58 分钟",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/11839110/",
+            "is_pending": "Not Pending",
+            "title": "二叉树中第二小的节点",
+            "timestamp": 1547894630
+        },
+        {
+            "id": 11838161,
+            "lang": "c",
+            "time": "21 小时，33 分钟",
+            "status_display": "Accepted",
+            "runtime": "40 ms",
+            "url": "/submissions/detail/11838161/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树中的搜索",
+            "timestamp": 1547892541
+        },
+        {
+            "id": 11838154,
+            "lang": "c",
+            "time": "21 小时，33 分钟",
+            "status_display": "Accepted",
+            "runtime": "36 ms",
+            "url": "/submissions/detail/11838154/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树中的搜索",
+            "timestamp": 1547892526
+        },
+        {
+            "id": 11838145,
+            "lang": "c",
+            "time": "21 小时，34 分钟",
+            "status_display": "Accepted",
+            "runtime": "60 ms",
+            "url": "/submissions/detail/11838145/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树中的搜索",
+            "timestamp": 1547892510
+        },
+        {
+            "id": 11838124,
+            "lang": "c",
+            "time": "21 小时，34 分钟",
+            "status_display": "Accepted",
+            "runtime": "2292 ms",
+            "url": "/submissions/detail/11838124/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树中的搜索",
+            "timestamp": 1547892464
+        },
+        {
+            "id": 11838117,
+            "lang": "c",
+            "time": "21 小时，35 分钟",
+            "status_display": "Accepted",
+            "runtime": "2124 ms",
+            "url": "/submissions/detail/11838117/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树中的搜索",
+            "timestamp": 1547892448
+        },
+        {
+            "id": 11838106,
+            "lang": "c",
+            "time": "21 小时，35 分钟",
+            "status_display": "Accepted",
+            "runtime": "20 ms",
+            "url": "/submissions/detail/11838106/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树中的搜索",
+            "timestamp": 1547892438
+        },
+        {
+            "id": 11838092,
+            "lang": "c",
+            "time": "21 小时，35 分钟",
+            "status_display": "Accepted",
+            "runtime": "24 ms",
+            "url": "/submissions/detail/11838092/",
+            "is_pending": "Not Pending",
+            "title": "二叉搜索树中的搜索",
+            "timestamp": 1547892414
+        },
+        {
+            "id": 11837940,
+            "lang": "c",
+            "time": "21 小时，40 分钟",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/11837940/",
+            "is_pending": "Not Pending",
+            "title": "左叶子之和",
+            "timestamp": 1547892124
+        },
+        {
+            "id": 11837937,
+            "lang": "c",
+            "time": "21 小时，40 分钟",
+            "status_display": "Accepted",
+            "runtime": "8 ms",
+            "url": "/submissions/detail/11837937/",
+            "is_pending": "Not Pending",
+            "title": "左叶子之和",
+            "timestamp": 1547892113
+        },
+        {
+            "id": 11837931,
+            "lang": "c",
+            "time": "21 小时，40 分钟",
+            "status_display": "Accepted",
+            "runtime": "36 ms",
+            "url": "/submissions/detail/11837931/",
+            "is_pending": "Not Pending",
+            "title": "左叶子之和",
+            "timestamp": 1547892101
+        },
+        {
+            "id": 11837895,
+            "lang": "c",
+            "time": "21 小时，41 分钟",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/11837895/",
+            "is_pending": "Not Pending",
+            "title": "左叶子之和",
+            "timestamp": 1547892037
+        },
+        {
+            "id": 11837886,
+            "lang": "c",
+            "time": "21 小时，42 分钟",
+            "status_display": "Accepted",
+            "runtime": "8 ms",
+            "url": "/submissions/detail/11837886/",
+            "is_pending": "Not Pending",
+            "title": "左叶子之和",
+            "timestamp": 1547892022
+        },
+        {
+            "id": 11837516,
+            "lang": "c",
+            "time": "21 小时，53 分钟",
+            "status_display": "Wrong Answer",
+            "runtime": "N/A",
+            "url": "/submissions/detail/11837516/",
+            "is_pending": "Not Pending",
+            "title": "左叶子之和",
+            "timestamp": 1547891354
+        },
+        {
+            "id": 11836975,
+            "lang": "c",
+            "time": "22 小时，7 分钟",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/11836975/",
+            "is_pending": "Not Pending",
+            "title": "对称二叉树",
+            "timestamp": 1547890500
+        },
+        {
+            "id": 11836965,
+            "lang": "c",
+            "time": "22 小时，7 分钟",
+            "status_display": "Accepted",
+            "runtime": "20 ms",
+            "url": "/submissions/detail/11836965/",
+            "is_pending": "Not Pending",
+            "title": "对称二叉树",
+            "timestamp": 1547890484
+        },
+        {
+            "id": 11836947,
+            "lang": "c",
+            "time": "22 小时，8 分钟",
+            "status_display": "Accepted",
+            "runtime": "516 ms",
+            "url": "/submissions/detail/11836947/",
+            "is_pending": "Not Pending",
+            "title": "对称二叉树",
+            "timestamp": 1547890449
+        },
+        {
+            "id": 11835448,
+            "lang": "c",
+            "time": "22 小时，46 分钟",
+            "status_display": "Accepted",
+            "runtime": "4 ms",
+            "url": "/submissions/detail/11835448/",
+            "is_pending": "Not Pending",
+            "title": "单值二叉树",
+            "timestamp": 1547888190
+        }
+    ],
+    "has_next": true,
+    "last_key": "r7almbls"
+}

@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>二叉树中第二小的节点 - 提交记录 - 力扣 (LeetCode)</title>
+    <meta property="og:title" content="二叉树中第二小的节点 - 提交记录 - 力扣 (LeetCode)" />
+
+    
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover' name='viewport' />
+    
+    <meta name="description" content="
+Given a non-empty special binary tree consisting of nodes with the non-negative value, where each node in this tree has exactly two or zero sub-node. If the node has two sub-nodes, then this node&#39;s value is the smaller value among its two sub-nodes. 
+
+
+
+Given such a binary tree, you need to output the second minimum value in the set made of all the nodes&#39; value in the whole tree. 
+
+
+
+If no such second minimum value exists, output -1 instead.
+
+
+Example 1:
+
+Input: 
+    2
+   / \
+  2   5
+     / \
+    5   7
+
+Output: 5
+Explanation: The smallest value is 2, the second smallest value is 5.
+
+
+
+Example 2:
+
+Input: 
+    2
+   / \
+  2   2
+
+Output: -1
+Explanation: The smallest value is 2, but there isn&#39;t any second smallest value.
+
+" />
+    
+    <meta name="keywords" content="力扣, 力扣中国, LeetCode, lingkou, LC, LCCN, LeetCode中国, LeetCode官网, 领扣, 领扣网, 领扣网络, 领扣中国, 刷题, 在线编程, LeetCode题库, 面经, 算法, 面试, 面试题, 机器学习, 大数据, 代码, 汇编, 编程, 开发, 程序员, 工程师, 码农, 程序猿, BAT, BAT面试, OJ, online judge, coding , interview, 技术面试, LeetCode中文版, leetcodechina" />
+    
+    <meta property="og:image" content="https://static.leetcode-cn.com/cn-legacy-assets/images/LeetCode_Sharing.png" />
+    <meta property="og:description" content="敢不敢来挑战这道题目？ 🤔" />
+
+    
+
+    <link rel="apple-touch-icon" sizes="57x57" href="https://static.leetcode-cn.com/cn-assets/icons/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="https://static.leetcode-cn.com/cn-assets/icons/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="https://static.leetcode-cn.com/cn-assets/icons/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="https://static.leetcode-cn.com/cn-assets/icons/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="https://static.leetcode-cn.com/cn-assets/icons/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="https://static.leetcode-cn.com/cn-assets/icons/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="https://static.leetcode-cn.com/cn-assets/icons/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="https://static.leetcode-cn.com/cn-assets/icons/apple-touch-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://static.leetcode-cn.com/cn-assets/icons/apple-touch-icon-180x180.png" />
+    <link rel="icon" type="image/png" href="https://static.leetcode-cn.com/cn-assets/icons/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="https://static.leetcode-cn.com/cn-assets/icons/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="https://static.leetcode-cn.com/cn-assets/icons/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="https://static.leetcode-cn.com/cn-assets/icons/favicon-160x160.png" sizes="160x160" />
+    <link rel="icon" type="image/png" href="https://static.leetcode-cn.com/cn-assets/icons/favicon-192x192.png" sizes="192x192" />
+    <meta name="application-name" content="LeetCode"/>
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="msapplication-TileImage" content="/mstile-144x144.png" />
+
+    
+      
+
+<script>
+  var match = document.cookie.match(/csrftoken=/g);
+  if (match.length >= 2) {
+    document.cookie = 'csrftoken=; expires=Thu, 01 Jan 1970 00:00:01 GMT; path=/;';
+  }
+</script>
+
+    
+
+    <script>
+  var _hmt = _hmt || [];
+  (function() {
+    var hm = document.createElement("script");
+    hm.src = "https://hm.baidu.com/hm.js?fa218a3ff7179639febdb15e372f411c";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+    <link href="https://static.leetcode-cn.com/cn-legacy-assets/bootstrap/dist/css/bootstrap.min.css?v=3.3.7" rel="stylesheet">
+    <link href="https://static.leetcode-cn.com/cn-legacy-assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://static.leetcode-cn.com/cn-legacy-assets/bootstrap-table/dist/bootstrap-table.min.css" rel="stylesheet" />
+
+    
+
+    <link rel="stylesheet" href="https://static.leetcode-cn.com/cn-legacy-assets/CACHE/css/709fc006133e.css" type="text/css" />
+
+    
+      <link href="https://static.leetcode-cn.com/cn-legacy-assets/needPopup/dist/needsharebutton.min.css" rel="stylesheet" />
+      <link type="text/css" href="//g.alicdn.com/sd/ncpc/nc.css?t=201901192329" rel="stylesheet"/>
+      <script src="https://static.leetcode-cn.com/cn-legacy-assets/needPopup/dist/needsharebutton.min.js"></script>
+    
+
+     
+<link rel="stylesheet" href="https://static.leetcode-cn.com/cn-legacy-assets/animate.css/animate.min.css">
+<link rel="stylesheet" href="https://static.leetcode-cn.com/cn-legacy-assets/CACHE/css/5279d91e3fc8.css" type="text/css" />
+
+    
+  <link rel="stylesheet" href="https://static.leetcode-cn.com/cn-legacy-assets/CACHE/css/56fb78573a7e.css" type="text/css" />
+
+
+    <script type="text/javascript" src="https://static.leetcode-cn.com/cn-legacy-assets/CACHE/js/552cba795668.js"></script>
+    <script src="https://static.leetcode-cn.com/cn-legacy-assets/jquery/dist/jquery.min.js?v=3.3.1"></script>
+    <script src="https://static.leetcode-cn.com/cn-legacy-assets/jquery.cookie/jquery.cookie.js"></script>
+    <script src="https://static.leetcode-cn.com/cn-legacy-assets/jquery-sticky/jquery.sticky.js"></script>
+    <script src="https://static.leetcode-cn.com/cn-legacy-assets/clipboard/dist/clipboard.min.js"></script>
+    <script src="https://static.leetcode-cn.com/cn-legacy-assets/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('.sticky').sticky({topSpacing:0});
+      });
+
+      
+      
+      
+      window.LeetCodeData = {
+        features: {
+          questionTranslation: true,
+          subscription: false,
+          signUp: true,
+          chinaProblemDiscuss: false,
+          enableSharedWorker: false,
+          enableChannels: true,
+          enableDangerZone: true,
+          enableCnJobs: false,
+        },
+        regionInfo: "CN",
+        userStatus: {
+          isSignedIn: true,
+          optedIn:  false ,
+          isPremium: false,
+          isAdmin:  false ,
+          isStaff:  false ,
+          isTranslator:  false ,
+          isSuperuser:  false ,
+          request_region: 'US',
+          region: '',
+          permissions: [],
+          
+            realName: 'ping',
+            username: 'ping',
+            userSlug: 'ping',
+            avatar: 'https://aliyun-lc-upload.oss-cn-hangzhou.aliyuncs.com/aliyun-lc-upload/default_avatar.png',
+            numUnreadNotifications: 0,
+            lastModified: 1547709621,
+          
+          
+            isCompanyUser:  false ,
+          
+        },
+        chinaURL: "https://leetcode-cn.com",
+        websocketUrl: "wss://leetcode-cn.com/ws/",
+        navbar: {
+          
+            loginSocial: [{"id": "weibo", "login_url": "/accounts/weibo/login/"}, {"id": "weixin", "login_url": "/accounts/weixin/login/"}, {"id": "baidu", "login_url": "/accounts/baidu/login/"}, {"id": "github", "login_url": "/accounts/github/login/"}, {"id": "linkedin", "login_url": "/accounts/linkedin/login/"}],
+          
+          loginNext: undefined,
+          subscription:  false,
+          mi: false,
+          contest: true,
+          discuss: true,
+          store: true,
+          book: true,
+          translate: true,
+          identity:  "" ,
+        },
+      };
+    </script>
+    <script src="https://static.leetcode-cn.com/cn-legacy-assets/angular/angular.min.js"></script>
+    <script src="https://static.leetcode-cn.com/cn-legacy-assets/jquery-ui-dist/jquery-ui.min.js"></script>
+    <script src="https://static.leetcode-cn.com/cn-legacy-assets/noty/lib/noty.min.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://static.leetcode-cn.com/cn-legacy-assets/html5shiv/dist/html5shiv.min.js"></script>
+      <script src="https://static.leetcode-cn.com/cn-legacy-assets/respond.js/dest/respond.min.js"></script>
+    <![endif]-->
+
+    
+  <script>
+    $(document).ready(function() {
+      var time_diff = new Date() - new Date(localStorage.getItem('region_switcher_last_close_ts'))
+      if (time_diff > 86400000) {  // 86400000ms == 1day
+        $("#region_switcher").removeClass('hide');
+      }
+    });
+
+    function openNavList() {
+      var menu = $('#nav-menu-btn');
+      var navbar = $('.navbar-collapse');
+      if(!navbar.hasClass('collapsing')) {
+        if(navbar.hasClass('in')) {
+          menu.removeClass('open');
+        } else {
+          menu.addClass('open');
+        }
+      }
+    };
+
+    function closeRegion() {
+      $("#region_switcher").addClass('hide');
+      localStorage.setItem('region_switcher_last_close_ts', new Date());
+    }
+  </script>
+
+  </head>
+  <body>
+    <script src="https://static.leetcode-cn.com/cn-legacy-assets/bootstrap/dist/js/bootstrap.min.js?v=3.3.7"></script>
+    <script src="https://static.leetcode-cn.com/cn-legacy-assets/bootstrap-table/dist/bootstrap-table.min.js"></script>
+    <script type="text/javascript" src="https://static.leetcode-cn.com/cn-legacy-assets/CACHE/js/2fa54da6e16d.js"></script>
+
+    <script type="text/javascript" src="https://static.leetcode-cn.com/cn-assets/webpack_bundles/runtime.6657f9406.js" ></script>
+    <script type="text/javascript" src="https://static.leetcode-cn.com/cn-assets/webpack_bundles/common/global.7b042a972.js" ></script>
+    <script type="text/javascript" src="https://static.leetcode-cn.com/cn-assets/webpack_bundles/common/styles/index.17edee6ed.js" ></script>
+    <script type="text/javascript" src="https://static.leetcode-cn.com/cn-assets/webpack_bundles/vendor-libs.071d9513f.js" ></script>
+    <script type="text/javascript" src="https://static.leetcode-cn.com/cn-assets/webpack_bundles/common-libs.79f4b5b5c.js" ></script>
+    <script type="text/javascript" src="https://static.leetcode-cn.com/cn-assets/webpack_bundles/new-libs.013eed9e1.js" ></script>
+
+    
+      <script type="text/javascript" src="https://static.leetcode-cn.com/cn-assets/webpack_bundles/locales/zh-Hans/index.6302fc3ec.js" ></script>
+    
+    
+    
+  <div class="content-wrapper">
+
+     
+
+    
+
+    <div id="lc_navbar" class="navbar navbar-inverse navbar-extra"></div>
+    <div id="lc_navbar_placeholder"></div>
+    <div id="base_content">
+       
+
+<div id="submission-app" class="container" ng-app="app">
+  <div class="row" ng-controller="BaseCtrl as baseCtrl">
+    <div class="col-md-12">
+      
+        <h4><a class="inline-wrap" href="/problems/second-minimum-node-in-a-binary-tree/">二叉树中第二小的节点</a></h4>
+      
+    </div>
+    <div class="col-md-12 extra-top" ng-controller="PollerCtrl">
+      
+      <h3>提交记录</h3>
+      <div id="details-summary">
+        <table style="width:100%">
+        <tr>
+        <td>
+          <div id="result_progress_row" class="row" ng-cloak ng-show="showResultProgress()"><strong><span id="result_progress">{[{ data.total_correct }]} / {[{ data.total_testcases }]}</span></strong> 个通过测试用例</div>
+        </td>
+          <td id="status">状态：<h4 id="result_state" class="inline-wrap text-info" ng-cloak ng-class="{'blue': 'text-info', 'green': 'text-success', 'red': 'text-danger'}[statusColor]">{[{ statusTransText }]}</h4></td>
+        </tr>
+        <tr>
+        <td>
+          <div id="ac_output" class="row" ng-cloak ng-show="showAcRuntime()">执行用时：<strong><span id="result_runtime">{[{ data.runtime }]}</span></strong></div>
+          
+<div id="result-testcases-panel" class="modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true"> <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h3 id="myModalLabel">测试用例</h3>
+      </div>
+      <div class="modal-body">
+        <div id="testcase_loading" class="hide row">
+          <div class="loading-center">
+            <img src="https://static.leetcode-cn.com/cn-legacy-assets/images/loading.gif" class="img-rounded" alt="loading" />
+          </div>
+        </div>
+        <table class="col-md-12 table table-hover table-condensed" id="result-testcases">
+          <thead>
+            <tr>
+              <th>
+                输入
+              </th>
+              <th style="width: 290px">
+                输出
+              </th>
+            </tr>
+          </thead>
+          <tbody style="font: 12px Menlo,Monaco,Consolas,'Courier New',monospace;">
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+
+        </td>
+        <td>
+          <div id="submitted-time">提交时间：<strong><span id="result_date">20 小时，32 分钟之前</span></strong></div>
+        </td>
+        </tr>
+        </table>
+      </div>
+      <div id="loading" class="row" ng-show="statusText === 'Pending'">
+        <div class="loading-center">
+          <img src="https://static.leetcode-cn.com/cn-legacy-assets/images/loading.gif" class="img-rounded" alt="loading" />
+        </div>
+      </div>
+      <div id="last_executed_testcase_output_row" ng-cloak ng-show="showLastTestCase()">
+        <div class="alert alert-danger col-md-12 testcase-table-re">
+          <div id="runtime_error_row" ng-cloak ng-show="runtimeError" class="testcase-table-row">
+            <span class="pad-left testcase-label">执行出错信息：</span>
+            <span id="runtime_error_output" class="text-danger ng-binding testcase-info">{[{ runtimeError }]}</span>
+          </div>
+          <div class="testcase-table-row">
+            <span class="pad-left testcase-label">最后执行的输入：</span>
+            <span id="last_executed_testcase_output" class="text-danger ng-binding testcase-info">{[{ lastExecutedTestCase }]}</span>
+          </div>
+        </div>
+      </div>
+      <div id="result_code_output_row" ng-cloak ng-show="resultCodeOutput">
+        <div id="result_code_output" class="alert alert-danger">{[{ resultCodeOutput }]}</div>
+      </div>
+      <div id="wa_output" ng-cloak ng-show="showWaTestCase()">
+        <div class="alert alert-danger col-md-12 testcase-table-wa">
+          <div class="testcase-table-row">
+            <span class="pad-left testcase-label">输入：</span>
+            <span id="result_wa_testcase_input" class="testcase-info text-default">{[{ resultWaTestCaseInput | escape }]}</span>
+          </div>
+          <div class="testcase-table-row">
+            <span class="pad-left testcase-label">输出：</span>
+            <span id="result_wa_testcase_output" class="testcase-info text-danger">{[{ resultWaTestCaseOutput | escape }]}</span>
+          </div>
+          <div class="testcase-table-row">
+            <span class="pad-left testcase-label">预期：</span>
+            <span id="result_wa_testcase_expected" class="testcase-info text-success">{[{ resultWaTestCaseExpected | escape }]}</span>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <div id="content" class="placeholder-content hide" ng-show="statusText === 'Accepted'">
+        <h4>执行用时分布图表</h4>
+        <div id="placeholder" class="demo-container">
+          <div id="detail_plot_placeholder"></div>
+          <br>
+          <div id="overview_plot_placeholder"></div>
+          <div style="text-align: center;">
+            在此图表上拖选来放大显示该区域
+          </div>
+        </div>
+        
+          <div class="animated fadeInLeft">
+            <h4><small>邀请好友来挑战 <b>二叉树中第二小的节点</b></small></h4>
+            
+              <div id="share-app" style="display: inline-block"></div>
+            
+          </div>
+        
+      </div>
+      <hr>
+      
+
+      <div class="row">
+        <div class="col-md-12">
+          <h4>提交的代码：<strong><span id="result_date" class="h5">20 小时，32 分钟之前</span></strong></h4>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="pull-left">语言：<span id="result_language">c</span></div>
+              
+                <div class="pull-right"><button id="edit-code-btn" class="btn btn-primary" ng-click="baseCtrl.editCode()">&nbsp;&nbsp;编辑代码&nbsp;&nbsp;</button></div>
+              
+            </div>
+          </div>
+          <div class="row"><p></p></div>
+          <div class="row">
+            <div class="col-md-12" id="ace" ng-controller="AceCtrl as aceCtrl">
+              <div ui-ace="aceCtrl.aceOption()" readonly="true" ng-model="aceCtrl.code" class="editor" ng-cloak></div>
+            </div>
+          </div>
+          <div class="row"><p></p></div>
+          
+            <div class="row">
+              <div class="col-md-12">
+                <div class="text-center">
+                  <a href="/problems/second-minimum-node-in-a-binary-tree/">返回该题</a>
+                </div>
+              </div>
+            </div>
+          
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="sample-submission-modal" tabIndex="-1" role="dialog">
+  <div class="modal-center">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">
+            <span aria-hidden="true">
+              &times;
+            </span>
+            <span class="sr-only">
+              关闭
+            </span>
+          </button>
+          <h4 id="sample-submission-header" class="modal-title">
+            代码例子
+          </h4>
+        </div>
+        <div>
+          <pre style="margin-bottom: 0px; max-height: 500px; overflow: scroll;"><code id="sample-submission-code"></code></pre>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    </div>
+
+  </div>
+
+  
+  <footer class="site-footer chinese" id="lc-footer">
+    <div class="container">
+      <hr>
+      <div class="row">
+        
+        <div class="col-sm-5 copyright">
+          <a href="https://lingkou.com" target="_blank" style="color:#373737">
+            <span>© 2019 领扣网络（上海）有限公司版权所有</span>
+          </a>
+        </div>
+        
+        <div class="text-right col-sm-7">
+          <div class="links">
+            <a href="/support/">帮助中心</a>
+            &nbsp;|&nbsp;
+            
+              <span class="hidden-xs hidden-sm" id="Join_LeetCode">
+                <a href="/jobs/">加入我们</a>
+                &nbsp;|&nbsp;
+              </span>
+            
+            
+            
+            <a href="/terms/">使用条例</a>
+            &nbsp;|&nbsp;
+            <a href="/privacy/">隐私政策</a>
+            
+              <span class="region-base">
+                
+                  <span class="hidden-xs space"> &nbsp; </span>
+                  <a href="/region/" class="choose-region hidden-xs">
+                    <img src="https://static.leetcode-cn.com/cn-legacy-assets/images/region/cn.svg" height="14"/>
+                    <span>中国</span>
+                  </a>
+                
+              </span>
+            
+          </div>
+        </div>
+      </div>
+      
+        <div class="row chinese-license">
+          <div class="col-sm-6 text-right col-sm-push-6 gongan-beian">
+            <a target="_blank"
+              href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=31011502007040"
+              style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"
+            >
+              <img class="beian" src="https://static.leetcode-cn.com/cn-legacy-assets/images/beian.png" style="float:left;"/>
+              <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px;">
+                沪公网安备 31011502007040号
+              </p>
+            </a>
+          </div>
+
+          <div class="col-sm-6 col-sm-pull-6 icp-beian">
+            <div class="ICP license">
+              <a href="http://www.miitbeian.gov.cn/" target="_blank">
+                <span>沪ICP备17051546号</span>
+              </a>
+              <span class="region-base-xs">&nbsp;
+                <a href="/region/" class="choose-region">
+                  <img src="https://static.leetcode-cn.com/cn-legacy-assets/images/region/cn.svg" height="10"/>&nbsp;<span>中国</span>
+                </a>
+              </span>
+            </div>
+            <!--
+            <div class="sgs license">
+              <a href="http://sh.gsxt.gov.cn/notice/notice/view?uuid=Db4Dh06YKFTDP4..0w0NzyaG19T8LNcP&tabPanel=01" target="_blank">
+                <img src="https://static.leetcode-cn.com/cn-legacy-assets/images/sgs.png" alt="上海工商" height="14" />上海工商
+              </a>
+            </div>
+            -->
+          </div>
+        </div>
+      
+    </div>
+  </footer>
+
+  <div class="modal fade simple-modal" id="supportModal" role="dialog">
+    <div class="modal-center">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+            <span class="text-lg text-300">&nbsp;有什么可以帮到您？</span>
+          </div>
+
+          <div class="modal-body">
+            <div class="row text-center">
+              <div class="col-sm-4">
+                <a
+                  class="support-module btn btn-default"
+                  href="mailto:billing@leetcode.com?subject=Billing%20Issue&body=Name:%0D%0A%0D%0AUsername:%0D%0A%0D%0AMessage:%0D%0A%0D%0A"
+                  target="_blank"
+                >
+                  <i class="fa fa-credit-card text-xl" aria-hidden="true"></i>
+                  <br/><span class="text">账号、账单问题</span>
+                </a>
+              </div>
+              <div class="col-sm-4">
+                <a
+                  class="support-module btn btn-default"
+                  href="mailto:support@leetcode.com?subject=General%20Support&body=Name:%0D%0A%0D%0AUsername:%0D%0A%0D%0AMessage:%0D%0A%0D%0A"
+                  target="_blank"
+                >
+                  <i class="fa fa-life-ring text-xl" aria-hidden="true"></i>
+                  <br/><span class="text">一般支持</span>
+                </a>
+              </div>
+              <div class="col-sm-4">
+                <a
+                  class="support-module btn btn-default"
+                  href="mailto:feedback@leetcode.com?subject=Other%20Inquiries&body=Name:%0D%0A%0D%0AUsername:%0D%0A%0D%0AMessage:%0D%0A%0D%0A"
+                  target="_blank"
+                >
+                  <i class="fa fa-question-circle text-xl" aria-hidden="true"></i>
+                  <br/><span class="text">其他咨询</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <script type="text/javascript" src="https://static.leetcode-cn.com/cn-assets/webpack_bundles/apps/navigation/index.3401994cc.js" ></script>
+  <script type="text/javascript" src="https://static.leetcode-cn.com/cn-legacy-assets/CACHE/js/eb02df0bc0e3.js"></script>
+
+  <script>
+    (function($, w, d){
+      
+      
+
+      $(function() {
+        $('#navbar-right img').addClass('img-rounded');
+        setFooterStyles();
+      });
+
+      function setFooterStyles() {
+        var $footer = $('#lc-footer'),
+            height = $footer.outerHeight();
+        if (!$footer.parent().is('body')) return ;
+        $footer.css('margin-top', -height);
+        $('.content-wrapper').css('padding-bottom', height);
+      }
+
+    }(jQuery, window, document));
+    try {
+      ace.config.set("basePath", "https://static.leetcode-cn.com/cn-legacy-assets/ace-builds/src-noconflict/")
+    } catch(err) {}
+  </script>
+
+
+    <script>
+      (function($, w, d){
+
+        $('#exit-mock-user-btn').click(function() {
+          $.ajax({
+            type: 'POST',
+            url: "/api/exit_mock_user/",
+            data: $('#exit-mock-user-form').serialize(),
+            success: function() {
+              window.location = window.location.href.split("?")[0];
+            }
+          });
+        });
+      }(jQuery, window, document));
+    </script>
+     
+<script>
+// prepare for data
+var pageData = {
+  submissionData: {
+    
+    status_code: parseInt('10', 10),
+    runtime: '0 ms',
+    
+      total_correct : '34',
+    
+    
+      total_testcases : '34',
+    
+    
+      compare_result : '1111111111111111111111111111111111',
+      input_formatted : '',
+      input : '',
+      expected_output : '',
+    
+    
+      code_output : '',
+    
+    
+    
+    
+    
+  },
+  questionId: '671',
+  sessionId: '31349',
+  getLangDisplay: 'c',
+  submissionCode: '/**\u000A * Definition for a binary tree node.\u000A * struct TreeNode {\u000A *     int val\u003B\u000A *     struct TreeNode *left\u003B\u000A *     struct TreeNode *right\u003B\u000A * }\u003B\u000A */\u000A//这个题是我想多了,不过没关系,适用于所有二叉树\u000A//中序遍历\u000Avoid bianli(struct TreeNode* root,int* array, int* now_size){\u000A    if(root){\u000A        if(root\u002D\u003Eleft)\u000A            bianli(root\u002D\u003Eleft,array,now_size)\u003B\u000A        array[*now_size]\u003Droot\u002D\u003Eval\u003B\u000A        *now_size+\u003D1\u003B\u000A        if(root\u002D\u003Eright)\u000A            bianli(root\u002D\u003Eright,array,now_size)\u003B\u000A    }\u000A}\u000A\u000A//排序\u000Avoid InsertSort(int *array, int N){\u000A    int Increase,i,j\u003B\u000A    int temp\u003B\u000A    for(Increase\u003DN/2\u003BIncrease\u003E0\u003BIncrease/\u003D2){\u000A        for(i\u003DIncrease\u003Bi\u003CN\u003Bi++){\u000A            temp\u003Darray[i]\u003B\u000A            for(j\u003Di\u003Bj\u003E\u003DIncrease\u003Bj\u002D\u003DIncrease){\u000A                if(temp\u003Carray[j\u002DIncrease])\u000A                    array[j]\u003Darray[j\u002DIncrease]\u003B\u000A                else\u000A                    break\u003B\u000A            }\u000A            array[j]\u003Dtemp\u003B\u000A        }\u000A    }\u000A}\u000A\u000Aint findSecondMinimumValue(struct TreeNode* root) {\u000A    int *array\u003Dmalloc(sizeof(int)*200)\u003B\u000A    int *now_size\u003Dmalloc(sizeof(int))\u003B\u000A    *now_size\u003D0\u003B\u000A    bianli(root,array,now_size)\u003B\u000A    InsertSort(array,*now_size)\u003B\u000A    int temp\u003Darray[0]\u003B\u000A    for(int i\u003D0\u003Bi\u003C*now_size\u003Bi++){\u000A        if(array[i]\u003Etemp)\u000A            return array[i]\u003B\u000A    }\u000A    return \u002D1\u003B\u000A}\u000A',
+  editCodeUrl: '/problems/second-minimum-node-in-a-binary-tree/',
+  checkUrl: '/submissions/detail/11839382/check/',
+  distribution_formatted: '{\u0022lang\u0022: \u0022c\u0022, \u0022distribution\u0022: [[\u002224\u0022, 8.6957], [\u002220\u0022, 4.3478], [\u002216\u0022, 4.3478], [\u002212\u0022, 8.6957], [\u00228\u0022, 13.0435], [\u00224\u0022, 8.6957], [\u00220\u0022, 52.1739]]}',
+  langs: [
+    
+  ],
+  runtime: '0',
+  nonSufficientMsg: 'Sorry. We do not have enough accepted submissions to show runtime distribution chart.'
+};
+if (isNaN(pageData.submissionData.status_code)) pageData.submissionData.status_code = 0
+</script>
+
+
+<!-- Go to www.addthis.com/dashboard to customize your tools -->
+<script src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-54828cb901e9e86a" async="async"></script>
+<script type="text/javascript" src="https://static.leetcode-cn.com/cn-legacy-assets/CACHE/js/eb392102e3ef.js"></script>
+<script type="text/javascript" src="https://static.leetcode-cn.com/cn-assets/webpack_bundles/legacy/submission/detail/index.bbc2f8499.js" ></script>
+
+  <script type="text/javascript" src="https://static.leetcode-cn.com/cn-assets/webpack_bundles/apps/share/share.743a97234.js" ></script>
+
+
+    
+      <!-- 百度认证 -->
+<!--
+<script type="text/javascript">
+$("footer.site-footer .copyright a span").html("Copyright © 2018 力扣信息科技（上海）有限公司");
+</script>
+-->
+
+
+
+
+
+
+
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-131851415-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-131851415-1');
+</script>
+
+
+
+
+
+
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+_atrk_opts = { atrk_acct:"tIUcs1Y1Mn20Io", domain:"leetcode-cn.com",dynamic: true};
+(function() { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0];s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=tIUcs1Y1Mn20Io" style="display:none" height="1" width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->  
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Start of KF5 supportbox script -->
+<script type="text/javascript">
+  console.log("Support checking...");
+
+  var currentURL = window.location.href;
+
+  function removeSurvey() {
+    localStorage.setItem("hideSurvey", new Date().getTime());
+    document.querySelector(".kf5-support-chat").style.display = "none";
+  }
+
+  /* Load survey */
+  var isNewQuestionDetail =
+    currentURL.includes("/problems/") &&
+    document.getElementById("question-detail-app") == null;
+  var loadKF5Survey =
+    isNewQuestionDetail &&
+    (localStorage.getItem("hideSurvey") == null ||
+      localStorage.getItem("hideSurvey") <
+        new Date().getTime() - 1000 * 60 * 60 * 24 * 3);
+
+  if (loadKF5Survey) {
+    var src = '//assets-cdn.kf5.com/supportbox/main.js?' + new Date().getDay()
+    var script = document.createElement('script');
+    script.setAttribute('defer', '');
+    script.src = src;
+    script.onload = addCloseBtn;
+    script.onerror = loadError;
+    script.setAttribute('id', 'kf5-provide-supportBox');
+    script.setAttribute('kf5-domain', 'leetcode.kf5.com');
+    document.body.appendChild(script);
+    console.log("loading Support...");
+  } else {
+    console.log("Support will not load.");
+  }
+
+  // close script
+  function addCloseBtn() {
+    if (document.querySelector("#kf5-support-btn span") == null) {
+      setTimeout(function() {
+        addCloseBtn();
+      }, 100);
+    } else {
+      console.log("Support loaded.");
+      document.querySelector("#kf5-support-btn span").innerHTML =
+        document.querySelector("#kf5-support-btn span").innerHTML +
+        " <span onclick='removeSurvey()' class='survey-close' title='关闭' style='font-size: 17px;line-height: 0px;margin-left: 5px'>×</span>";
+    }
+  }
+
+  function loadError() {
+    console.log('Fail to load LeetCode Support.');
+  }
+</script>
+
+<style>
+  .survey-close:hover {
+    opacity: 0.6;
+  }
+  .kf5-chatSupport-left-bottom .kf5-chatSupport-style3,
+  .kf5-chatSupport-left-bottom .kf5-supportBox {
+    top: 0px !important;
+    bottom: auto !important;
+    right: 240px !important;
+    left: auto !important;
+  }
+
+  .kf5-chatSupport-style3::before {
+    margin-right: 0px !important;
+    font-size: 14px !important;
+    padding-right: 5px !important;
+  }
+
+  .kf5-chatSupport-style3 {
+    opacity: 0.85;
+    padding-right: 10px !important;
+    line-height: 33px !important;
+    font-size: 12px !important;
+    box-shadow: 0 0px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0 0 5px 5px;
+  }
+</style>
+<!-- End of KF5 supportbox script -->
+    
+
+    
+      <script type="text/javascript" charset="utf-8" src="//g.alicdn.com/sd/ncpc/nc.js?t=201901192329"></script>
+      <script type="text/javascript" charset="utf-8" src="//g.alicdn.com/sd/nch5/index.js?t=201901192329"></script>
+    
+  </body>
+</html>
